@@ -16,13 +16,12 @@ function Layout() {
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto nav-items">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#login">Register</Nav.Link>
+              {/* <Nav.Link href="#login">Register</Nav.Link> */}
               <Nav.Link href="/login">Login</Nav.Link>
-            </Nav>
-      
-            <Nav>
               <Nav.Link href="#contact">Contact Us</Nav.Link>
             </Nav>
+             
+         
           </Navbar.Collapse>
         </Container>
         <div className="content">

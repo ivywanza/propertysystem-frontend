@@ -23,6 +23,7 @@ export default function Login(){
                 { name: 'email', type: 'email', placeholder: 'Enter Email ...', required: true },
                 { name: 'password', type: 'password', placeholder: 'Password', required: true },
               ]} 
+              submitText='LOGIN'
               onSubmit={onsubmit}
             /> 
             </div>

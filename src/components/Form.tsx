@@ -60,7 +60,7 @@ const Form: React.FC<FormProps> = ({ fields, onSubmit, submitText, className }) 
           </div>
         ))}
         <Button type="submit" className="login-button mt-3">
-          {submitText || 'LOGIN'}
+          {submitText}
         </Button>
       </form>
     </div>

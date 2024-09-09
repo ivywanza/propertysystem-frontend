@@ -5,8 +5,8 @@
     height: 100vh;
     width: 100%;
     /* padding-left: 15pxk;   */
-    /* object-fit: cover; */
-    margin-left: 5px; 
+    object-fit: cover;
+    /* margin-left: 5px;  */
     /* background-color: aqua; */
     position: relative;
     
@@ -29,5 +29,6 @@ h1{
     width: 150px;
     height: 50px;
     background-color: rgb(93, 148, 194);
+    border-radius: 10px;
     
 }

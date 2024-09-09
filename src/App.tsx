@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import "./App.css";
 import "./components/Layout";
 import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+// import Layout from "./components/Layout";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         {/* <Route element={<Layout />}> */}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         {/* </Route> */}
       </Routes>
     </Router>
